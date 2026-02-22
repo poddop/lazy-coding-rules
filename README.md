@@ -11,9 +11,6 @@ It is primarily intended for **Codex** usage, where rules are loaded at runtime 
 ## What’s included
 
 - `AGENTS.md`  
-  Top-level principles the AI must always follow (highest-priority rules)
-
-- `rules/coding-rules.md`  
   Concrete design rules (e.g., `ARCH*`, `FB*`)
 
 ## Rules (Principles)
@@ -56,7 +53,6 @@ It is primarily intended for **Codex** usage, where rules are loaded at runtime 
 Place the following two files in your project’s `.codex` directory:
 
 - `AGENTS.md`
-- `rules/coding-rules.md`
 
 Once present, Codex will load these rules at runtime.
 
@@ -66,5 +62,3 @@ Example structure:
 your-project/
   .codex/
     AGENTS.md
-    rules/
-      coding-rules.md
